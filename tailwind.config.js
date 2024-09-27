@@ -2,11 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    fontFamily: {
-      montserrat: ["Montserrat", "sans-serif"],
-      fraunces: ["Fraunces", "serif"],
+    extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        fraunces: ["Fraunces", "serif"],
+      },
     },
-    extend: {},
   },
   plugins: [],
 };

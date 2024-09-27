@@ -15,7 +15,7 @@ const App = () => {
           <h1 className="font-montserrat text-gray-500 tracking-[.3rem]">
             PERFUME
           </h1>
-          <h1 className="font-fraunces mx-1 md:w-[10rem] font-extrabold text-3xl">
+          <h1 className="font-fraunces mx-1 md:w-[12rem] font-extrabold text-3xl">
             Gabrielle Essence Eau De Parfum
           </h1>
           <p className="font-montserrat text-gray-500">
@@ -23,10 +23,10 @@ const App = () => {
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
           <span className="flex gap-3 items-center font-montserrat">
-            <h1 className="text-[#3D8168] font-extrabold text-3xl">$149.99</h1>
+            <h1 className="text-[#3D8168] font-fraunces font-extrabold text-3xl">$149.99</h1>
             <h1 className="text-gray-500 text-lg line-through ">$169.99</h1>
           </span>
-          <button className="flex items-center justify-center font-bold gap-2 bg-[#3D8168] rounded-lg p-3 text-white">
+          <button className="flex font-montserrat items-center justify-center font-bold gap-2 bg-[#3D8168] rounded-lg p-3 text-white">
             <BsCart3 />
             Add to Cart
           </button>
